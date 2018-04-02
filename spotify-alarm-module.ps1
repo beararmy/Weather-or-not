@@ -1,7 +1,5 @@
-
-
-
 # This is the code to run once we have the oauth token (bearer)
+# Keys disclosed, but they are all expired, need to mechanise the grabbing of the key
 $URI = "https://api.spotify.com/v1/me/player/play"
 $headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
 $headers.Add("Authorization", 'Bearer BQBPkq-1QpcsH-wf1awm_MYmeWaHeNu2bg6VnczVD3twbXl74vCytEEuvCX_WVb98jf9_bIFHySJFDQr56m6xlkenHRyzO_qpmXFd_NbJiqdMTdTLWfylv79eKaRBUcWp7spT_sikKJJAw1hPclEKGZFKWY')
