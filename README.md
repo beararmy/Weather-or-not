@@ -1,4 +1,7 @@
 # Weather-or-not
+
+In the process of being moved to strava-tools repo
+
 Tool to help decide whether to cycle commute or not based on weather conditions.
 - Wind
 - Rain
